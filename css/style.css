@@ -1,0 +1,126 @@
+* {
+    margin: 0;    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#container {
+    background: url("../img/background.jpeg");
+    padding-bottom: 140px;
+}
+
+#btn-entrar {
+    background: #e50914;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 17px;  
+    font-size: 1rem;
+    float: right;   
+    cursor: pointer;
+}
+
+#cabecalho {
+    padding: 28px 56px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    width: 700px;
+    margin: 140px auto 0 auto;
+}
+
+#paragrafo-assista {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#paragrafo-assistir {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+    margin-bottom: 40px;
+
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    color:#000;
+}
+#btn-email {
+    width: 250px;
+    background: #e50914;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#btn-email:hover {
+    opacity: 0.6;
+}
+
+#principal {
+    background: #000;
+    border-bottom: 8px solid #222;
+    border-top: 8px solid #222;       
+}
+
+#principal h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+#btn-pergunta {
+    display:block;
+    align-items: center;
+    background: #303030;
+    width: 50rem;
+    height: 3.75rem;
+    font-size: 24px;
+    border: none;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#img-fechar {
+    float: right;
+    margin-top: 8px;    
+    transform: rotate(45deg);
+    transition: 0.2s;
+}
+
+#img-fechar-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
+
+#pergunta {
+    background: #303030;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    margin-top: 3px;
+    font-size: 24px;
+    display: none;
+
+}
