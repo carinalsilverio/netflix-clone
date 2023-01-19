@@ -1,0 +1,95 @@
+html {
+  font-family: Helvetica, sans-serif
+}
+body {
+  background-image: url(/public/img/background-img.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+main { 
+  width: 20vw;
+  height: 65vh;
+  background-color: rgba(0,0,0,.75); 
+  border-radius: 4px;
+  padding: 60px;
+  margin: 4rem auto;
+  z-index: -1;  
+}
+
+.access h1 {
+  display: flex;
+  color: #f3f3f3;
+  font-size: 30px; 
+  margin-bottom: 2rem;
+}
+
+.form input {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #333;
+  color: #f3f3f3;
+  border: none;
+  border-bottom: 2px solid #e87c03;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  outline: 0;
+  }
+
+  .id, .password {
+    width: 100%;
+  }
+
+.form button { 
+  display: block;
+  background-color: #e50914;
+  color: #f3f3f3;
+  border: #e50914;
+  font-weight: bold;
+  cursor: pointer; 
+  border-radius: 4px; 
+  padding: 15px;
+  width: 100%;  
+  margin-bottom: 1rem; 
+} 
+
+label .checked {
+
+  margin-bottom: 0;
+  display: flex;
+}
+
+.check {
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+  padding: 0;  
+}
+
+.checkbox {
+  margin-left: 1rem; 
+}
+.to-remember {
+  margin-left: 0.5rem;
+}
+
+.help {
+
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1.5rem;
+  justify-content: flex-end;
+}
+
+.help:hover {
+  text-decoration:underline;
+}
+
+

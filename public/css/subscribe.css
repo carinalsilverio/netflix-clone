@@ -1,0 +1,63 @@
+.logo {
+  height: 7.5rem;
+}
+
+header {
+border-bottom: 1px solid #e6e6e6;
+margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  margin: 8rem auto 0 auto;
+  justify-content: center;
+  width: 18rem;
+}
+
+.passe-by-step span:first-child {
+  display: inline-block;
+  margin-left: 6rem;
+  text-align: inherit;  
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 19px;  
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.check-icon {
+  color: #e50914;
+    flex: none;    
+}
+
+.check ul li span{
+  margin-left: 10px;
+  font-size: 18px;  
+}
+
+.btn-next {
+  display: block;
+  background-color: #e50914;
+  color: #f3f3f3;
+  border: #e50914;
+  font-size: 20px;
+  cursor: pointer; 
+  border-radius: 4px; 
+  padding: 20px;
+  width: 100%;  
+  margin-top: 2rem; 
+}
+
