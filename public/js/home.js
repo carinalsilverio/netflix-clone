@@ -32,13 +32,13 @@ const fetchMoviesListByGenres = (id, genres) => {
 const makeCategoryElement = (category, data) => {
   main.innerHTML += `<div class="movie-list">
   <buttom class="pre-btn">
-    <img src="./img/prev.png" alt="previus buttom">
+    <img src="public/img/prev.png" alt="previus buttom">
   </buttom>
   <h1 class="movie-category">${category.replace('-', ' ')}</h1>
   <div class="movie-container" id= "${category}">     
   </div>
   <buttom class="next-btn">
-    <img src="./img/next.png" alt="next buttom">
+    <img src="public/img/next.png" alt="next buttom">
   </buttom>
 </div>`;
   makeCards(category, data);
