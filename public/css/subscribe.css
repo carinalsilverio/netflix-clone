@@ -20,7 +20,7 @@ main {
   text-align: inherit;  
   margin-bottom: 0.5rem;
   font-size: 13px;
-  line-height: 19px;
+  line-height: 1.187rem;
   text-transform: uppercase;
   color: #333;
 }
@@ -29,7 +29,7 @@ main {
   margin-bottom: 2rem;
   font-size: 32px;
   font-weight: bold;
-  line-height: 19px;  
+  line-height: 1.187rem;  
   color: #333;
 }
 
@@ -44,7 +44,7 @@ ul {
 }
 
 .check ul li span{
-  margin-left: 10px;
+  margin-left: 0.625rem;
   font-size: 18px;  
 }
 
@@ -56,7 +56,7 @@ ul {
   font-size: 20px;
   cursor: pointer; 
   border-radius: 4px; 
-  padding: 20px;
+  padding: 1.25rem;
   width: 100%;  
   margin-top: 2rem; 
 }
